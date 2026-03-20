@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment & Secrets
+.env
+**/.env
+config/.env
+
+# Local SQLite (if used)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pipeline output
+pipeline.log
+data/processed/
+
+# Charts (optional: remove if you want to commit charts)
+docs/charts/
+
+# OS
+.DS_Store
+Thumbs.db
